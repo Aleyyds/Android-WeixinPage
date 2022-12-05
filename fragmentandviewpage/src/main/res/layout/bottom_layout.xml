@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:layout_gravity="bottom"
+    android:background="@color/gray"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/id_tab_weixin"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:clickable="true"
+            android:id="@+id/tab_iv_weixin"
+            android:layout_width="40dp"
+            android:layout_height="32dp"
+            android:background="@drawable/wei_normal"/>
+
+        <TextView
+            android:text="微信"
+            android:gravity="center"
+            android:id="@+id/text_weixin"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"  />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_concat"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:clickable="true"
+
+            android:id="@+id/tab_iv_concat"
+            android:layout_width="40dp"
+            android:layout_height="32dp"
+            android:background="@drawable/contact_list_normal"/>
+
+        <TextView
+            android:text="通讯录"
+            android:id="@+id/text_concat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/id_tab_find"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:clickable="true"
+            android:id="@+id/tab_iv_find"
+            android:layout_width="40dp"
+            android:layout_height="32dp"
+            android:background="@drawable/find_normal"/>
+
+        <TextView
+            android:text="发现"
+            android:gravity="center"
+            android:id="@+id/text_find"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/id_tab_profile"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:clickable="true"
+            android:id="@+id/tab_iv_profile"
+            android:layout_width="40dp"
+            android:layout_height="32dp"
+            android:background="@drawable/profile_normal"/>
+
+        <TextView
+            android:text="我"
+            android:gravity="center"
+            android:id="@+id/text_profile"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
+
